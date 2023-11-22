@@ -1,10 +1,11 @@
 {
 	"name": "babel-preset-syntastic",
-	"version": "0.0.1",
+	"version": "0.0.0-development",
 	"description": "Babel preset with synactic sugars",
 	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"semantic-release": "semantic-release"
 	},
 	"keywords": ["babel", "preset", "build", "babel-preset"],
 	"author": "Geraldi Sutanto",
@@ -21,10 +22,14 @@
 		"@babel/runtime-corejs3": "^7.23.4"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "1.3.3"
+		"@biomejs/biome": "1.3.3",
+		"semantic-release": "^22.0.8"
+	},
+	"release": {
+		"branches": ["main"]
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/justomat/babel-preset-syntastic.git"
+		"url": "https://github.com/justomat/babel-preset-syntastic.git"
 	}
 }
