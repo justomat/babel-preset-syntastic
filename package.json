@@ -1,0 +1,17 @@
+{
+  "name": "babel-preset-syntastic",
+  "version": "0.0.1",
+  "description": "Babel preset with synactic sugars",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "babel",
+    "preset",
+    "build",
+    "babel-preset"
+  ],
+  "author": "Geraldi Sutanto",
+  "license": "AGPL-3.0-only"
+}
