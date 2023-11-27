@@ -13,6 +13,7 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
+/** @type {import('@babel/core').ConfigFunction} */
 module.exports = () => {
 	return {
 		plugins: [
